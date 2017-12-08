@@ -39,7 +39,7 @@ THE SOFTWARE.
 
 修改的地方
 =======
-1、支持自动提取mobileprovision中的AppId.
-2、默认勾选修改ID
-3、修改osx10.12后使用CertsID代替Certs Identifier来签名。
+1、支持自动提取mobileprovision中的AppId.</br>
+2、默认勾选修改ID</br>
+3、修改osx10.12后使用CertsID代替Certs Identifier来签名。</br>
 以上修改主要为方便企业版签名，有啥问题请联系QQ：76030844
