@@ -851,8 +851,9 @@ static NSString *kiTunesMetadataFileName            = @"iTunesMetadata";
         
         certComboBoxItems = [NSMutableArray arrayWithArray:tempGetCertsResult];
         
-        [certComboBox reloadData];
-        
+        dispatch_sync(dispatch_get_main_queue(), ^{
+            [certComboBox reloadData];
+        });
     }
 }
 
